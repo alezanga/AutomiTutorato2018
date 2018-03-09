@@ -1,3 +1,17 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Esercizi DFA](#esercizi-dfa)
+	- [Esercizi slide 2](#esercizi-slide-2)
+		- [Esercizio 3](#esercizio-3)
+		- [Esercizio 4](#esercizio-4)
+	- [Esercizi extra](#esercizi-extra)
+- [Esercizi NFA](#esercizi-nfa)
+	- [Esercizi slide 2](#esercizi-slide-2)
+		- [Esercizio 2 (pag 24)](#esercizio-2-pag-24)
+		- [Esercizio 3 (pag 25)](#esercizio-3-pag-25)
+
+<!-- /TOC -->
+
 # Esercizi DFA
 ## Esercizi slide 2
 
