@@ -206,7 +206,7 @@ Possibile soluzione: `(0+1)*101(0+1)*`
 
 **Punto 2**: tutte le stringhe che non contengono la sottostringa `101` (NB: eps = &epsilon;)
 
-Possibile soluzione: `(0+1+eps)(1+(000*+1))*(0+1+eps)`
+Possibile soluzione: `(0+1+eps)(1+(000*))*(0+1+eps)`
 
 **Sfida**: tutte le stringhe che interpretate come numeri binari rappresentano un multiplo di 3.
 
