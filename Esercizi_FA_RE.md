@@ -12,7 +12,7 @@
 		- [Esercizio 2 costruzione per sottoinsiemi (pag 24)](#esercizio-2-costruzione-per-sottoinsiemi-pag-24)
 		- [Esercizio 3 (pag 25)](#esercizio-3-pag-25)
 	- [Esercizi extra NFA](#esercizi-extra-nfa)
-		- [Esercizio conversione NFA -> DFA](#esercizio-conversione-nfa-dfa)
+		- [Esercizio conversione NFA - DFA](#esercizio-conversione-nfa-dfa)
 - [Esercizi 	&epsilon;-NFA](#esercizi-epsilon-nfa)
 	- [Esercizio slide 3 (pag 18)](#esercizio-slide-3-pag-18)
 	- [Esercizio 2.5.3 (b) del libro](#esercizio-253-b-del-libro)
@@ -24,7 +24,8 @@
 		- [Esercizio extra RE 1](#esercizio-extra-re-1)
 		- [Esercizio extra RE 2](#esercizio-extra-re-2)
 
-<!-- /TOC --># Esercizi DFA
+<!-- /TOC -->
+# Esercizi DFA
 
 ## Esercizi slide 2
 
