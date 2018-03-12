@@ -111,9 +111,9 @@ Automa 	&epsilon;-NFA che accetta tutte le parole costituite da
 ![Esercizio pag 18](img/epsilon/abc_s3_nfa.png "Esercizio pag 18 NFA")
 
 *Calcolo ECLOSE di ogni stato dell’automa:*
-	-	ECLOSE(q0) = {q0, q1, q2}
-	-	ECLOSE(q1) = {q1, q2}
-	-	ECLOSE(q2) = {q2}
+	* ECLOSE(q0) = {q0, q1, q2}
+	*	ECLOSE(q1) = {q1, q2}
+	*	ECLOSE(q2) = {q2}
 
 *Conversione in DFA:*
 (se non ci sono simboli indica l'insieme vuoto, * indica uno stato finale)
