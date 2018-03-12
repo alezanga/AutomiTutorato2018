@@ -21,16 +21,15 @@
 		- [Esercizio 1 (pag 14)](#esercizio-1-pag-14)
 		- [Esercizio 2 (pag 15)](#esercizio-2-pag-15)
 	- [Altri esercizi:](#altri-esercizi)
-		- [Esercizio 2 o 3 b](#esercizio-2-o-3-b)
 		- [Esercizio extra RE 1](#esercizio-extra-re-1)
+		- [Esercizio extra RE 2](#esercizio-extra-re-2)
 
-<!-- /TOC -->
+<!-- /TOC --># Esercizi DFA
 
-# Esercizi DFA
 ## Esercizi slide 2
 
 ### Esercizio c (pag 5)
-DFA che accetta l'insieme di tutte le stringhe in {0, 1}* che contengono 3 zeri anche non consecutivi.
+DFA che accetta l'insieme di tutte le stringhe in {0, 1}* che contengono esattamente 3 zeri anche non consecutivi.
 
 ![Esercizio 3](img/DFA/tre_zeri_3a.png "Esercizio c DFA")
 
@@ -74,33 +73,7 @@ DFA ottenuto dalla costruzione per sottoinsiemi a partire dall'NFA.
 
 DFA ottenuto con la costruzione per sottoinsiemi dall'automa:
 ![Esercizio 2](img/NFA/es3_dfa.png "Esercizio 3 sottoinsiemi")
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Esercizi DFA](#esercizi-dfa)
-	- [Esercizi slide 2](#esercizi-slide-2)
-		- [Esercizio c (pag 5)](#esercizio-c-pag-5)
-		- [Esercizio d (pag 5)](#esercizio-d-pag-5)
-	- [Esercizio extra DFA](#esercizio-extra-dfa)
-- [Esercizi NFA](#esercizi-nfa)
-	- [Esercizi slide 2](#esercizi-slide-2)
-		- [Esercizio a (pag 12)](#esercizio-a-pag-12)
-		- [Esercizio b (pag 12)](#esercizio-b-pag-12)
-		- [Esercizio 2 costruzione per sottoinsiemi (pag 24)](#esercizio-2-costruzione-per-sottoinsiemi-pag-24)
-		- [Esercizio 3 (pag 25)](#esercizio-3-pag-25)
-	- [Esercizi extra NFA](#esercizi-extra-nfa)
-		- [Esercizio conversione NFA -> DFA](#esercizio-conversione-nfa-dfa)
-- [Esercizi 	&epsilon;-NFA](#esercizi-epsilon-nfa)
-	- [Esercizio slide 3 (pag 18)](#esercizio-slide-3-pag-18)
-	- [Esercizio 2.5.3 (b) del libro](#esercizio-253-b-del-libro)
-- [Espressioni regolari](#espressioni-regolari)
-	- [Esercizi slide 5](#esercizi-slide-5)
-		- [Esercizio 1 (pag 14)](#esercizio-1-pag-14)
-		- [Esercizio 2 (pag 15)](#esercizio-2-pag-15)
-	- [Altri esercizi:](#altri-esercizi)
-		- [Esercizio 2 o 3 b](#esercizio-2-o-3-b)
-		- [Esercizio extra RE 1](#esercizio-extra-re-1)
-
-<!-- /TOC -->
 ## Esercizi extra NFA
 
 ### Esercizio conversione NFA -> DFA
@@ -210,19 +183,18 @@ Possibile soluzione: `(0+1+eps)(1+(000*))*(0+1+eps)`
 
 **Sfida**: tutte le stringhe che interpretate come numeri binari rappresentano un multiplo di 3.
 
-Possibile soluzione: `((0+11)+10(1+00)*01)*`
-
-DFA corrispondente:
+DFA corrispondente (dal quale si può ottenere la RE):
 ![Esercizio 2 (sfida)](img/DFA/multipli3.png "DFA multipli di 3")
+L'automa modella i possibili resti (modulo 3) di ogni stringa binaria interpretata come numero binario. Pertanto accetta solamente se il resto è 0, cioè quando è un multiplo di 3.
 
 
 ## Altri esercizi:
-### Esercizio 2 o 3 b
+### Esercizio extra RE 1
 Espressione regolare che accetta tutte le stringhe su &Sigma;={a, b} che contengono esattamente 2 oppure 3 lettere 'b'
 
 Soluzione: `a*ba*ba*(ba*+a*)`
 
-### Esercizio extra RE 1
+### Esercizio extra RE 2
 Espressione regolare che accetta stringhe con numero di 0 multiplo di 5.
 
-Soluzione: `(1*01*01*01*01*01*)*`
+Soluzione: `(1+(01*01*01*01*0))*`
