@@ -78,7 +78,7 @@ DFA ottenuto con la costruzione per sottoinsiemi dall'automa:
 
 ## Esercizi extra NFA
 
-### Esercizio conversione NFA -> DFA
+### Esercizio conversione NFA - DFA
 Convertire l'automa con la seguente tabella in DFA
 
 |         |    a   |   b  |
@@ -116,7 +116,6 @@ Automa 	&epsilon;-NFA che accetta tutte le parole costituite da
 ![Esercizio pag 18](img/epsilon/abc_s3_nfa.png "Esercizio pag 18 NFA")
 
 *Calcolo ECLOSE di ogni stato dell’automa:*
-
 	- ECLOSE(q0) = {q0, q1, q2}
 
 	-	ECLOSE(q1) = {q1, q2}
