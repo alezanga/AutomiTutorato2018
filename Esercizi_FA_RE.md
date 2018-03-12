@@ -43,7 +43,9 @@ DFA che accetta l'insieme delle stringhe sull'alfabeto {0, 1} tali che ogni bloc
 
 Ad esempio:
 	- `00011 10101`    è accettato
+
 	- `10100 10110 00` è accettato
+
 	- `11011 1010`     non è accettato perchè nel primo blocco manca uno 0
 
 
@@ -105,8 +107,11 @@ NB: nei disegni degli esercizi la lettera &epsilon; è equivalente a &lambda;
 ## Esercizio slide 3 (pag 18)
 Automa 	&epsilon;-NFA che accetta tutte le parole costituite da
 	-	zero o più 'a'
+
 	-	seguite da zero o più 'b'
+
 	-	seguite da zero o più 'c'
+
 *Costruzione dell'automa &epsilon;-NFA:*
 ![Esercizio pag 18](img/epsilon/abc_s3_nfa.png "Esercizio pag 18 NFA")
 
@@ -114,9 +119,7 @@ Automa 	&epsilon;-NFA che accetta tutte le parole costituite da
 
 	- ECLOSE(q0) = {q0, q1, q2}
 
-
 	-	ECLOSE(q1) = {q1, q2}
-
 
 	-	ECLOSE(q2) = {q2}
 
