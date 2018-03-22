@@ -44,11 +44,9 @@ DFA che accetta l'insieme delle stringhe in {0, 1}* che cominciano o finiscono (
 DFA che accetta l'insieme delle stringhe sull'alfabeto {0, 1} tali che ogni blocco di 5 simboli consecutivi contenga almeno due 0.
 
 Ad esempio:
-	- `00011 10101`    è accettato
-
-	- `10100 10110 00` è accettato
-
-	- `11011 1010`     non è accettato perchè nel primo blocco manca uno 0
+- `00011 10101`    è accettato
+- `10100 10110 00` è accettato
+- `11011 1010`     non è accettato perchè nel primo blocco manca uno 0
 
 
 ![Es extra 1](img/DFA/blocchi_5_zeri.png "Esercizio extra 1")
@@ -108,21 +106,17 @@ Tabella delle transizioni del DFA:
 NB: nei disegni degli esercizi la lettera &epsilon; è equivalente a &lambda;
 ## Esercizio slide 3 (pag 18)
 Automa 	&epsilon;-NFA che accetta tutte le parole costituite da
-	-	zero o più 'a'
-
-	-	seguite da zero o più 'b'
-
-	-	seguite da zero o più 'c'
+-	zero o più 'a'
+-	seguite da zero o più 'b'
+-	seguite da zero o più 'c'
 
 *Costruzione dell'automa &epsilon;-NFA:*
 ![Esercizio pag 18](img/epsilon/abc_s3_nfa.png "Esercizio pag 18 NFA")
 
 *Calcolo ECLOSE di ogni stato dell’automa:*
-	- ECLOSE(q0) = {q0, q1, q2}
-
-	-	ECLOSE(q1) = {q1, q2}
-
-	-	ECLOSE(q2) = {q2}
+- ECLOSE(q0) = {q0, q1, q2}
+-	ECLOSE(q1) = {q1, q2}
+-	ECLOSE(q2) = {q2}
 
 *Conversione in DFA:*
 (se non ci sono simboli indica l'insieme vuoto, * indica uno stato finale)
@@ -138,8 +132,8 @@ NB: sono state omesse le transizioni verso l'insieme vuoto.
 
 ## Esercizio 2.5.3 (b) del libro
 &epsilon;-NFA che accetta insieme delle stringhe formate da
-	-	`01` ripetuto una o più volte
-	-	`010` ripetuto una o più volte
+-	`01` ripetuto una o più volte
+-	`010` ripetuto una o più volte
 Ho interpretato la consegna in modo che sia permesso mescolare i due casi, ovvero `01 010 01 01 010` è accettato.
 
 *Disegno dell'automa &epsilon;-NFA:*
