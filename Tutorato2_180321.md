@@ -225,6 +225,6 @@ L è regolare?
 
 Supponendo che lo sia, allora dovrebbe rispettare il PL &forall; parola.
 
-&forall; `h >= 0`, considero w = 0<sup>h</sup>1<sup>m</sup>0<sup>h*m</sup>.
+&forall; `h >= 0`, considero w = 0<sup>h</sup>1<sup>m</sup>0<sup>hm</sup>.
 Considero qualunque split in `xyz` t.c. y &ne; &epsilon; e |xy| &le; h. Quindi `y` deve essere formata da uno o più `0`, ovvero y = 0<sup>p</sup>, con `p > 0`.
-Allora `w'`= xy<sup>0</sup>z è nella forma 0<sup>h-p</sup>1<sup>m</sup>0<sup>h*m</sup>, e allora `w'` &notin; `L`. Questo perché `(h-p)*m < hm`. Questo linguaggio falsifica il PL, quindi non è regolare.
+Allora `w'`= xy<sup>0</sup>z è nella forma 0<sup>h-p</sup>1<sup>m</sup>0<sup>hm</sup>, e allora `w'` &notin; `L`. Questo perché `(h-p)*m < hm`. Questo linguaggio falsifica il PL, quindi non è regolare.
