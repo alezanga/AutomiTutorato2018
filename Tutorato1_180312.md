@@ -131,9 +131,10 @@ NB: sono state omesse le transizioni verso l'insieme vuoto.
 ![Esercizio pag 18](img/epsilon/abc_s3_dfa.png "Esercizio pag 18 DFA")
 
 ## Esercizio 2.5.3 (b) del libro
-&epsilon;-NFA che accetta insieme delle stringhe formate da
+&epsilon;-NFA che accetta insieme delle stringhe formate solo da:
 -	`01` ripetuto una o più volte
 -	`010` ripetuto una o più volte
+
 Ho interpretato la consegna in modo che sia permesso mescolare i due casi, ovvero `01 010 01 01 010` è accettato.
 
 *Disegno dell'automa &epsilon;-NFA:*

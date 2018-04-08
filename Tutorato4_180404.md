@@ -1,5 +1,21 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Grammatiche CFG](#grammatiche-cfg)
+	- [Es dalle slide 1 CFG](#es-dalle-slide-1-cfg)
+		- [Es 5.1.1.d](#es-511d)
+			- [SE (<=) (Se una stringa è in L(S), allora contiene un numero di 0 doppio di quello degli 1)](#se-se-una-stringa-in-ls-allora-contiene-un-numero-di-0-doppio-di-quello-degli-1)
+			- [Lemma  utile](#lemma-utile)
+			- [SOLO SE (=>) (Se una stringa contiene un numero di 0 doppio di quello degli 1 allora è in L(S))](#solo-se-se-una-stringa-contiene-un-numero-di-0-doppio-di-quello-degli-1-allora-in-ls)
+	- [Altri esercizi](#altri-esercizi)
+		- [Esercizio T1 (da esame)](#esercizio-t1-da-esame)
+			- [DIMOSTRAZIONE: A e B producono stringhe in (ripettivamente) K e J.](#dimostrazione-a-e-b-producono-stringhe-in-ripettivamente-k-e-j)
+			- [DIMOSTRAZIONE: Qualunque stringa in K e J è prodotta da A e B](#dimostrazione-qualunque-stringa-in-k-e-j-prodotta-da-a-e-b)
+			- [Dimostrazione di S.](#dimostrazione-di-s)
+		- [Es 5.1.7.a libro](#es-517a-libro)
+
+<!-- /TOC -->
 # Grammatiche CFG
-## Es dallae slide 1 CFG
+## Es dalle slide 1 CFG
 ### Es 5.1.1.d
 Scrivere una CFG per L<sub>d</sub> = {insieme delle stringhe in {0,1}* con numero di 0 doppio del numero di 1}
 
