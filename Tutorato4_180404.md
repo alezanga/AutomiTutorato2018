@@ -3,14 +3,9 @@
 - [Grammatiche CFG](#grammatiche-cfg)
 	- [Es dalle slide 1 CFG](#es-dalle-slide-1-cfg)
 		- [Es 5.1.1.d](#es-511d)
-			- [SE (<=) (Se una stringa è in L(S), allora contiene un numero di 0 doppio di quello degli 1)](#se-se-una-stringa-in-ls-allora-contiene-un-numero-di-0-doppio-di-quello-degli-1)
-			- [Lemma  utile](#lemma-utile)
-			- [SOLO SE (=>) (Se una stringa contiene un numero di 0 doppio di quello degli 1 allora è in L(S))](#solo-se-se-una-stringa-contiene-un-numero-di-0-doppio-di-quello-degli-1-allora-in-ls)
+		- [Esercizio 3 pag 25 slides](#esercizio-3-pag-25-slides)
 	- [Altri esercizi](#altri-esercizi)
 		- [Esercizio T1 (da esame)](#esercizio-t1-da-esame)
-			- [DIMOSTRAZIONE: A e B producono stringhe in (ripettivamente) K e J.](#dimostrazione-a-e-b-producono-stringhe-in-ripettivamente-k-e-j)
-			- [DIMOSTRAZIONE: Qualunque stringa in K e J è prodotta da A e B](#dimostrazione-qualunque-stringa-in-k-e-j-prodotta-da-a-e-b)
-			- [Dimostrazione di S.](#dimostrazione-di-s)
 		- [Es 5.1.7.a libro](#es-517a-libro)
 
 <!-- /TOC -->
@@ -103,19 +98,19 @@ Quindi posso usare queste produzioni, nei rispettivi casi, per ottenere `w1` e `
 1. S => aSBb => a x B b => `a x b` = w1.
 2. S => aSBb => a y B b => `a y bb` = w2.
 
-Per cui supponendo che tutte le stringhe in L, lunghe `n` siano generate, posso produrre tutte quelle lunghe `n+2` e `n+3`.
 
 #### Dimostro <=
 Per induzione su `n` = # di passi di derivazione.
 
 CASO BASE:
-- n = 1: S => &epsilon;, che è una striga del linguaggio.
+
+- n = 1: S => &epsilon;, che è una stringa del linguaggio.
 
 INDUZIONE: n &ge; 2
 
 S => aSBb (n-1)=> a x B b.
 
-Uso l'ipotesi induttiva per sostenere che `x` &isin; L. Allora:
+Uso l'ipotesi induttiva per sostenere che `x` &isin; L. Allora, a seconda della produzione di B, ottengo:
 
 1. `axb`
 2. `axbb`
@@ -143,7 +138,7 @@ B produce stringhe a<sup>n</sup>b<sup>m</sup> con m = n+1 oppure n = m, m > 0 e 
 S allora produce il linguaggio L = {w | w = a<sup>n</sup>b<sup>m</sup> con `n` = `m` oppure `n` = `m+1` con `n` e `m` > 0}.
 
 Ora va dimostrato che `w` &isin; L(S) <=> `w` &isin; L.
-Conviene però prima dimostrare induttivamente che le variabili A e B producono il liguaggi K e J, poi, sapendo questo, segue facilmente che S genera tutte e sole le stringhe in L.
+Conviene però prima dimostrare induttivamente che le variabili A e B producono il liguaggi K e J, poi, sapendo questo, segue facilmente che `S` genera tutte e sole le stringhe in L.
 
 #### DIMOSTRAZIONE: A e B producono stringhe in (ripettivamente) K e J.
 
@@ -160,7 +155,7 @@ Assumiamo che valga l'ipotesi induttiva per stringhe prodotte in  `n` &ge; 1 pas
 
 A => aB (n)=> ax. Allora `x` &isin; J per ipotesi induttiva. Allora `ax` è generata in n+1 passi e sicuramente &isin; K perchè aggiungendo una 'a' davanti semplicemente o pareggio il numero di 'a' e 'b', oppure avrò una 'a' in più.
 
-B => Ab (n)=> xa. Su `x` vale l'ipotesi induttiva perchè è prodotta da A in n passi.
+B => Ab (n)=> xa. Su `x` vale l'ipotesi induttiva perchè è prodotta da `A` in 'n' passi.
 
 
 

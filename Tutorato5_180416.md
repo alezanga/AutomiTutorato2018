@@ -1,3 +1,21 @@
+<!-- TOC depthFrom:1 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Correzione del compitino del 9 Aprile](#correzione-del-compitino-del-9-aprile)
+	- [Esercizio 1](#esercizio-1)
+		- [Punto a](#punto-a)
+		- [Punto b](#punto-b)
+	- [Esercizio 2](#esercizio-2)
+	- [Esercizio 3](#esercizio-3)
+	- [Esercizio 4](#esercizio-4)
+	- [Esercizio 5 (CFG)](#esercizio-5-cfg)
+- [Esercizi su gammatiche CFG](#esercizi-su-gammatiche-cfg)
+	- [Esercizi vari](#esercizi-vari)
+		- [Esercizio T1](#esercizio-t1)
+		- [Esercizio T2 (es 2 pag 8)](#esercizio-t2-es-2-pag-8)
+		- [Esercizio T3](#esercizio-t3)
+
+<!-- /TOC -->
+
 # Correzione del compitino del 9 Aprile
 
 ## Esercizio 1
@@ -115,11 +133,13 @@ Rispondere alle seguenti domande.
 
 3. `L` è un linguaggio regolare. Infatti può essere espresso anche dall'espressione regolare `((a+b)(a+b))*`. In particolare G è una grammatica lineare, perchè contiene al massimo una variabile nel corpo di ogni produzione.
 
+
 # Esercizi su gammatiche CFG
 
 ## Esercizi vari
 
-### Es T1 <!--(es 3 pag 8 raccolta exercises)-->
+### Esercizio T1
+<!--(es 3 pag 8 raccolta exercises)-->
 
 L = {w &isin; {a, b}* | #a < #b}, ovvero tutte le stringhe con più 'b' che 'a'.
 
@@ -201,7 +221,7 @@ Nel primo caso suppongo per ipotesi induttiva che `x` e `y` &isin; `L`, visto ch
 Nel secondo caso so già, avendo dimostrato il linguaggio di E, che `x`, `y` &isin; K (hanno lo stesso numero di 'a' e 'b'). Allora aggiungendo una 'b' si ottiene una stringa in `L`.
 
 
-### Es T2 (es 2 pag 8)
+### Esercizio T2 (es 2 pag 8)
 
 L = {a<sup>k</sup>b<sup>l</sup>a<sup>m</sup> | m = k + l}
 
