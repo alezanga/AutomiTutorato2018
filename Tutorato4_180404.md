@@ -72,6 +72,60 @@ A questo punto basta inserire la stringa `m` con una delle tre produzioni, togli
 S => &epsilon;
 
 
+### Esercizio 3 pag 25 slides
+Scrivere una CFG per L.
+
+L = {a<sup>n</sup>b<sup>m</sup> | 0 ≤ n ≤ m ≤ 2n}
+
+Grammatica:
+- **S** => aSBb | &epsilon;
+- B => b | &epsilon;
+
+Va dimostrato che `w` &isin; L <=> `w` è generata da S.
+
+#### Dimostro =>
+Per induzione su |w|= n.
+
+CASO BASE:
+- |w| = 0. Allora w = &epsilon; e c'è la produzione S => &epsilon;
+
+INDUZIONE: (n &ge; 2)
+
+Allora se ho una stringa `w` &isin; L e |w| &ge; 2, può essere scritta in (almeno) una delle due forme:
+
+1. `w1 = a x b`, con `x` &isin; L.
+2. `w2 = a y bb`, con `y` &isin; L.
+
+Allora suppongo per ipotesi induttiva che sia `x` che `y` siano generate da S.
+
+Quindi posso usare queste produzioni, nei rispettivi casi, per ottenere `w1` e `w2`:
+
+1. S => aSBb => a x B b => `a x b` = w1.
+2. S => aSBb => a y B b => `a y bb` = w2.
+
+Per cui supponendo che tutte le stringhe in L, lunghe `n` siano generate, posso produrre tutte quelle lunghe `n+2` e `n+3`.
+
+#### Dimostro <=
+Per induzione su `n` = # di passi di derivazione.
+
+CASO BASE:
+- n = 1: S => &epsilon;, che è una striga del linguaggio.
+
+INDUZIONE: n &ge; 2
+
+S => aSBb (n-1)=> a x B b.
+
+Uso l'ipotesi induttiva per sostenere che `x` &isin; L. Allora:
+
+1. `axb`
+2. `axbb`
+
+sono entrambi in L.
+
+
+
+
+
 ## Altri esercizi
 ### Esercizio T1 (da esame)
 
