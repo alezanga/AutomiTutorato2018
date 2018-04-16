@@ -11,7 +11,7 @@
 - [Esercizi su gammatiche CFG](#esercizi-su-gammatiche-cfg)
 	- [Esercizi vari](#esercizi-vari)
 		- [Esercizio T1](#esercizio-t1)
-		- [Esercizio T2 (es 2 pag 8)](#esercizio-t2-es-2-pag-8)
+		- [Esercizio T2](#esercizio-t2)
 		- [Esercizio T3](#esercizio-t3)
 
 <!-- /TOC -->
@@ -150,7 +150,8 @@ Grammatica:
 
 `E` genera tutte le stringhe con numero di 'a' e 'b' uguale (chiamerò questo linguaggio `K`). `S` invece usa `E` per generare tutte le stringhe in L. Ora va dimostrato per induzione. Partendo da dimostrare `E`.
 
-#### DIMOSTRAZIONE per E <!--(es 3.18 libro pag 192)-->
+#### DIMOSTRAZIONE per E
+<!--(es 3.18 libro pag 192)-->
 TESI: `w` è generata da E <=> `w` ha ugual numero di 'a' e 'b' (&isin; K)
 
 ##### Dimostrazione <=
@@ -221,7 +222,8 @@ Nel primo caso suppongo per ipotesi induttiva che `x` e `y` &isin; `L`, visto ch
 Nel secondo caso so già, avendo dimostrato il linguaggio di E, che `x`, `y` &isin; K (hanno lo stesso numero di 'a' e 'b'). Allora aggiungendo una 'b' si ottiene una stringa in `L`.
 
 
-### Esercizio T2 (es 2 pag 8)
+### Esercizio T2
+<!-- (es 2 pag 8) -->
 
 L = {a<sup>k</sup>b<sup>l</sup>a<sup>m</sup> | m = k + l}
 
