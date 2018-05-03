@@ -127,7 +127,7 @@ La CFG equivalente sarà composta dalle seguenti produzioni:
 ## Altri esercizi
 
 ### Esercizio T1
-Convertire in CFG l'automa dell'[esercizio 6.2.1.c](#es-621c) (`#0 = #1`). Le produzioni sono:
+Convertire in CFG l'automa dell'[esercizio 6.2.1.c](#esercizio-621c) (`#0 = #1`). Le produzioni sono:
 
 1. &delta;(q, 1, Z) = {(q, 1Z)}
 2. &delta;(q, 0, Z) = {(q, 0Z)}
