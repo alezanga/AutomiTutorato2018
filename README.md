@@ -1,6 +1,8 @@
 # AutomiTutorato2018
-Raccolta di esercizi svolti durante il tutorato di Automi e linguaggi formali 2018.
+Raccolta di esercizi svolti durante il tutorato di Automi e Linguaggi Formali 2018.
 
-Per visualizzarli basta cliccare sui file `.md`.
+Gli esercizi sono raggrupati per incontro e per visualizzarli basta cliccare sui file in formato `.md`.
 
-Gli esercizi sono raggrupati per incontro.
+Software utile:
+- JFLAP: http://www.jflap.org/
+- Touring Machine Simulator: http://morphett.info/turing/turing.html
