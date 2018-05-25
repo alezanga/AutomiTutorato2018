@@ -119,7 +119,7 @@ P = ({q0, q1, q2, q3, q4, q5}, {0, 1}, {Z, 0}, &delta;, q0, Z, {q0, q4, q5})
 
 Alcuni casi limite:
 - 0<sup>2n</sup> è accettata, in quanto le transizioni fra `q0` e `q1` servono proprio ad assicurarsi che la stringa si soli '0' sia di lunghezza pari.
-- Anche 1<sup>m</sup> è accettato. Infatti se `q2` vede una `Z` sullo stack, vuol dire che non sono stati letti '0' perima degli '1', e quindi transita in `q5` che accetta qualunque numero di '1'.
+- Anche 1<sup>m</sup> è accettato. Infatti se `q2` vede una `Z` sullo stack, vuol dire che non sono stati letti '0' prima degli '1', e quindi transita in `q5` che accetta qualunque numero di '1'.
 - La stringa vuota è accettata da `q0`.
 
 
@@ -228,8 +228,8 @@ Quindi la grammatica diventa:
 
 #### 3. Eliminazione simboli inutili
 
-I generatori sono: &pi; = {0, 1, S, A, B, C}
-I raggiungibili sono: R = {S, A, 0, 1, B}
+I generatori sono: &pi; = {0, 1, S, A, B, C}.
+I raggiungibili sono: R = {S, A, 0, 1, B}.
 
 Quindi `C` va rimossa perchè non raggiungibile, ma in realtà si possono rimuovere anche `A` e `B` perchè sono identiche ad `S`.
 
@@ -254,7 +254,7 @@ Quindi rimane:
 - B => &epsilon;
 
 #### 1. Eliminazione &epsilon;-produzioni
-I simboli annullabili sono: Z = {B, S, A}
+I simboli annullabili sono: Z = {B, S, A}.
 Siccome `B` può produrre solo la stringa vuota, va rimossa, e di conseguenza va tolta anche ogni produzione che contiene `B` nel corpo.
 
 Quindi:
