@@ -5,7 +5,7 @@
 		- [Esercizio 6.2.1.c](#esercizio-621c)
 		- [Esercizio 6.2.2.b](#esercizio-622b)
 		- [Esercizio 6.2.3.a (corretto)](#esercizio-623a-corretto)
-- [Conversioni PDA - CFG](#conversioni-pda-cfg)
+- [Conversioni PDA CFG](#conversioni-pda-cfg)
 	- [Esercizi pag 261 libro](#esercizi-pag-261-libro)
 		- [Esercizio 6.3.1](#esercizio-631)
 		- [Esercizio 6.3.3](#esercizio-633)
@@ -77,7 +77,7 @@ Disegno di N:
 ![Esercizio 6.2.3.a](img/PDA/Ex6.2.3.a.png "Es 6.2.3.a per stack vuoto")
 
 
-# Conversioni PDA - CFG
+# Conversioni PDA CFG
 
 ## Esercizi pag 261 libro
 

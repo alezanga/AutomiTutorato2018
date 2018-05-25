@@ -5,7 +5,7 @@
 		- [Esercizio 6.2.3.b](#esercizio-623b)
 	- [Altro esercizio](#altro-esercizio)
 		- [Esercizio T1 da esame](#esercizio-t1-da-esame)
-- [Conversioni PDA - CFG](#conversioni-pda-cfg)
+- [Conversioni PDA CFG](#conversioni-pda-cfg)
 	- [Esercizi pag 261 del libro](#esercizi-pag-261-del-libro)
 		- [Esercizio 6.3.2](#esercizio-632)
 		- [Esercizio 6.3.5.b](#esercizio-635b)
@@ -72,7 +72,7 @@ Funzionamento:
 - in alternativa, con la transizione fra `q1` e `q2` accetta quando le 'b' inserite hanno consumato tutte le 'A' sulla pila (caso `n = m`);
 - per arrivare nello stato `q1`, `P` deve leggere almeno una 'a' seguita da una 'b'. Quindi è garantito che `n > 0` e `m > 0`.
 
-# Conversioni PDA - CFG
+# Conversioni PDA CFG
 
 ## Esercizi pag 261 del libro
 
