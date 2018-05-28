@@ -1,3 +1,20 @@
+<!-- TOC depthFrom:1 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Esercizi su Context Free Languages](#esercizi-su-context-free-languages)
+	- [Pumping Lemma per CFL](#pumping-lemma-per-cfl)
+		- [Esercizio 7.2.1.b pag 297](#esercizio-721b-pag-297)
+	- [Normalizzazione di grammatiche (CNF)](#normalizzazione-di-grammatiche-cnf)
+		- [Esercizio 7.1.5 pag 286](#esercizio-715-pag-286)
+- [Macchine di Touring](#macchine-di-touring)
+	- [Esercizi pag 347](#esercizi-pag-347)
+		- [Esercizio 8.2.5.c](#esercizio-825c)
+	- [Altri esercizi](#altri-esercizi)
+		- [Esercizio T1](#esercizio-t1)
+		- [Esercizio T2 (da esame)](#esercizio-t2-da-esame)
+		- [Esercizio T3 (da esame)](#esercizio-t3-da-esame)
+
+<!-- /TOC -->
+
 # Esercizi su Context Free Languages
 
 ## Pumping Lemma per CFL
@@ -135,7 +152,7 @@ Esempio:
 
 La macchina `N` è così definita:
 
-N = ({q0, q1, q2, ..., q11}, {0, 1}, {0, 1, □, X, 1, 2, 3, 4, 5, 6, 7, 8, 9}, &delta;, q0, □, {q11})
+N = ({q0, q1, q2, ..., q11}, {0, 1}, {0, 1, □, X, 1, 2, 3, 4, 5, 6, 7, 8, 9}, &delta;, q0, &#9633;, {q11})
 
 ![Esercizio T1](img/TM2/BinDec.png "TM conversione binario decimale")
 
@@ -151,5 +168,7 @@ Definire una TM che accetti stringhe binarie palindrome.
 
 ### Esercizio T3 (da esame)
 Definire una TM che accetta L = {1<sup>n</sup>0<sup>m</sup>1<sup>m-1</sup> | n &ge; 0, m > 0}
+
+`T` = ({q0, q1, q2, q3, q4, q5}, {0, 1}, {0, 1, X, Y, &#9633;}, &delta;, q0, &#9633;, {q5})
 
 ![Esercizio T3](img/TM2/EsT3.png "TM esercizio T3")
